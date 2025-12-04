@@ -1,11 +1,29 @@
-<div align="center">
+# Srihari Beesetti — Creative Writer & Story Architect
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Tagline:** Telugu-native storyteller blending cinematic instincts, lyric craft, and sharp comedy timing.
 
-  <h1>Built with AI Studio</h2>
+## About
+I write across formats: Telugu lyrics, short-form scripts, pitch-ready loglines, scene fragments, and content for social platforms. My strengths are cinematic structure, emotive lyrical voice, native Telugu rhythm and idiomatic punch, and comedy timing that brings characters to life.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## What I do
+- **Lyric writing:** Songs rooted in Telugu sensibility — nostalgia, longing, romance, and situational humor.
+- **Screenwriting:** Short scenes, dialogues, and web-series concepts with clear emotional beats and production-ready notes.
+- **Content & SEO-friendly writing:** Blog-style analyses, film breakdowns, and platform copy optimized for discoverability.
+- **Comedy & Dialogue:** Punchline-first dialogue and timing for reels, sketches, and character-driven comedy.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Portfolio structure (what to include)
+- `/samples/lyrics/` — 8–12 lyric files (Telugu + English transliteration + short note on tone)
+- `/samples/scripts/` — 3–5 short scenes (1-page each) and 2 loglines for series
+- `/samples/analysis/` — 2 scene breakdowns (example: Bahubali scene analysis)
+- `/samples/content/` — 6 social post mockups and 2 SEO blog drafts
+- `/assets/` — (optional) audio clips or links to recorded readings
 
-</div>
+## How to use this repo
+1. Replace the `README.md` with this file.
+2. Add the `samples/` folders below.
+3. Commit and push. Use GitHub Pages or the project README as your portfolio landing page.
+
+## Contact
+- **Name:** Srihari Beesetti
+- **Email:** replace_with_your_email@example.com
+- **Links:** Link to music, soundcloud, or demo reels (add here)

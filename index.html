@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srihari Beesetti - Creative Writer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-vertical-timeline-component@3.6.0/style.min.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.1/client",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.1",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.1.1",
+    "react-icons/fa": "https://aistudiocdn.com/react-icons@^5.5.0/fa",
+    "react-icons/si": "https://aistudiocdn.com/react-icons@^5.5.0/si",
+    "react-icons/md": "https://aistudiocdn.com/react-icons@^5.5.0/md",
+    "react-icons/io5": "https://aistudiocdn.com/react-icons@^5.5.0/io5",
+    "react-vertical-timeline-component": "https://aistudiocdn.com/react-vertical-timeline-component@^3.5.3",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "react-icons/": "https://aistudiocdn.com/react-icons@^5.5.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "react-vertical-timeline-component/": "https://aistudiocdn.com/react-vertical-timeline-component@^3.5.3/",
+    "graphql-request": "https://aistudiocdn.com/graphql-request@^7.3.5",
+    "web-vitals": "https://aistudiocdn.com/web-vitals@^5.1.0",
+    "@testing-library/jest-dom": "https://aistudiocdn.com/@testing-library/jest-dom@^6.9.1"
+  }
+}
+</script>
+    <style>
+      :root {
+        --netflix-red: #E50914;
+        --netflix-black: #141414;
+        --netflix-dark-gray: #181818;
+      }
+
+      /* Netflix Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #141414;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      
+      body {
+        background-color: #141414;
+        color: white;
+        font-family: 'Martel Sans', sans-serif;
+        overflow-x: hidden;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Animation Classes */
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-in forwards;
+      }
+
+      .animate-slide-up {
+        animation: slideUp 0.5s ease-out forwards;
+      }
+
+      .animate-zoom-in {
+        animation: zoomIn 0.3s ease-out forwards;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      @keyframes slideUp {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      @keyframes zoomIn {
+        from { transform: scale(0.9); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+
+      /* Card Hover Effects */
+      .hover-scale {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+        z-index: 10;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
