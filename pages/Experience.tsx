@@ -1,8 +1,10 @@
+
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { EXPERIENCE } from '../constants';
 import { MdWork, MdSchool } from 'react-icons/md';
+import { FaStar } from 'react-icons/fa';
 
 const Experience: React.FC = () => {
   return (
@@ -29,6 +31,10 @@ const Experience: React.FC = () => {
               </p>
             </VerticalTimelineElement>
           ))}
+          <VerticalTimelineElement
+            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            icon={<FaStar />}
+          />
         </VerticalTimeline>
       </div>
     </div>
